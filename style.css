@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -57,9 +58,11 @@ a:hover {
 article {
     max-width: 500px;
 }
+
 .heropic {
     min-width: 200px;
     max-width: 500px;
+    border-radius: 50px;
 }
 
 button {
@@ -90,5 +93,72 @@ button {
 
 .info-figures img {
     max-width: 200px;
-    border-radius: 100px;
+    border-radius: 50px;
+}
+
+.info-figures figcaption {
+    max-width: 200px;
+    padding: 20px 0;
+    font-style: italic;
+}
+
+.quote-container {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container p {
+    min-width: 300px;
+    max-width: 800px;
+    text-align: center;
+    padding: 50px;
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.last-container {
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    min-width: 800px;
+    gap: 100px;
+    font-weight: 100;
+   
+}
+
+.blue-box button {
+    border: 2px solid white;
+}
+
+.blue-box h2 {
+    margin-bottom: -10px;
+}
+
+footer {
+    display: flex;
+    color: white;
+    font-weight: lighter;
+    font-size: .75em;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
 }
